@@ -1,0 +1,9 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g opacity="0.2">
+<path d="M40,2L40,40C40,40.53 39.789,41.039 39.414,41.414C39.039,41.789 38.53,42 38,42L6,42C5.47,42 4.961,41.789 4.586,41.414C4.211,41.039 4,40.53 4,40L4,2L40,2Z" fill="#E3E3E3"/>
+</g>
+<line x1="0" y1="0" x2="44" y2="0" stroke="#E3E3E3" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="14" y1="14" x2="14" y2="30" stroke="#E3E3E3" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="26" y1="14" x2="26" y2="30" stroke="#E3E3E3" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,2C42,0.895 41.105,0 40,0C38.895,0 38,0.895 38,2L42,2ZM6,2C6,0.895 5.105,0 4,0C2.895,0 2,0.895 2,2L6,2ZM38,2L38,40L42,40L42,2L38,2ZM38,40L38,40L40.828,42.828C41.579,42.078 42,41.061 42,40L38,40ZM38,40L38,40L38,44C39.061,44 40.078,43.579 40.828,42.828L38,40ZM38,40L6,40L6,44L38,44L38,40ZM6,40L6,40L3.172,42.828C3.922,43.579 4.939,44 6,44L6,40ZM6,40L6,40L2,40C2,41.061 2.421,42.078 3.172,42.828L6,40ZM6,40L6,2L2,2L2,40L6,40Z" fill="#E3E3E3"/>
+</svg>
