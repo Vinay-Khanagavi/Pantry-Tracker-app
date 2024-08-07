@@ -92,41 +92,60 @@ export function FirstPage() {
             <div className="button-grid">
               <div className="container-3">
                 <div className="button-input">
-                  {/* <Image 
-                    className="text-underline" 
-                    src="/assets/images/TextAUnderline.png"
-                    alt="Text Aunderline" 
-                    width={22}
-                    height={22}
-                  /> */}
                   <div className="name">Scroll down and Add ingredients below, then let AI work its magic! Click "Suggest Recipe" to discover dishes based on your items.</div>
                 </div>
-                {/* <div className="button-input-1">
-                  <img className="camera" src="assets/vectors/Camera_x2.svg" alt="Camera" />
-                  <div className="picture">Picture</div>
-                </div> */}
               </div>
               <div className="container-1">
                 <div className="button-input-2">
-                  <img className="plus-square" src="assets/vectors/PlusSquare4_x2.svg" alt="Plus Square" />
+                  <Image 
+                    className="plus-square" 
+                    src="assets/vectors/PlusSquare4_x2.svg"
+                    alt="Plus Square" 
+                    width={22}
+                    height={22}
+                  />
                   <div className="quantity">Quantity</div>
                 </div>
                 <div className="button-input-3">
-                  <img className="storefront" src="assets/vectors/Storefront2_x2.svg" alt="Storefront" />
+                  <Image 
+                    className="storefront" 
+                    src="assets/vectors/Storefront2_x2.svg"
+                    alt="Storefront" 
+                    width={22}
+                    height={22}
+                  />
                   <div className="origin">Origin</div>
                 </div>
                 <div className="button-input-4">
-                  <img className="calendar-blank" src="assets/vectors/CalendarBlank2_x2.svg" alt="Calendar Blank" />
+                  <Image 
+                    className="calendar-blank" 
+                    src="assets/vectors/CalendarBlank2_x2.svg"
+                    alt="Calendar Blank" 
+                    width={22}
+                    height={22}
+                  />
                   <div className="date">Date</div>
                 </div>
               </div>
               <div className="container-9">
                 <div className="button-input-5">
-                  <img className="currency-dollar" src="assets/vectors/CurrencyDollar2_x2.svg" alt="Currency Dollar" />
+                  <Image 
+                    className="currency-dollar" 
+                    src="assets/vectors/CurrencyDollar2_x2.svg"
+                    alt="Currency Dollar" 
+                    width={22}
+                    height={22}
+                  />
                   <div className="price">Price</div>
                 </div>
                 <div className="button-input-6">
-                  <img className="text-align-left" src="assets/vectors/TextAlignLeft3_x2.svg" alt="Text Align Left" />
+                  <Image 
+                    className="text-align-left" 
+                    src="assets/vectors/TextAlignLeft3_x2.svg"
+                    alt="Text Align Left" 
+                    width={22}
+                    height={22}
+                  />
                   <div className="notes">Notes</div>
                 </div>
               </div>
