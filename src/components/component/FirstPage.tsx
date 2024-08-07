@@ -14,7 +14,6 @@ const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
 export function FirstPage() {
-  const [ showModal,setShowModal] = useState([]);
   const [inventory, setInventory] = useState([]);
   const [recipes, setRecipes] = useState([]);
   const [showRecipeModal, setShowRecipeModal] = useState(false);
@@ -52,9 +51,9 @@ export function FirstPage() {
       const inventoryItems = inventory.map(item => `${item.quantity}x ${item.name}`).join(", ");
       const prompt = `Suggest a recipe using the following ingredients: ${inventoryItems}. Make sure you give response in this format:
       {
-          title: "Vegetable Stir-Fry",
-          excerpt: "A colorful and flavorful stir-fry with a variety of fresh vegetables and a savory sauce",
-          content: "FULL RECIPE CONTENT HERE"
+          title: &quot;Vegetable Stir-Fry&quot;,
+          excerpt: &quot;A colorful and flavorful stir-fry with a variety of fresh vegetables and a savory sauce&quot;,
+          content: &quot;FULL RECIPE CONTENT HERE&quot;
       }`;
       const result = await model.generateContent(prompt);
       const response = await result.response;
@@ -92,7 +91,7 @@ export function FirstPage() {
             <div className="button-grid">
               <div className="container-3">
                 <div className="button-input">
-                  <div className="name">Scroll down and Add ingredients below, then let AI work its magic! Click "Suggest Recipe" to discover dishes based on your items.</div>
+                  <div className="name">Scroll down and Add ingredients below, then let AI work its magic! Click &quot;Suggest Recipe&quot; to discover dishes based on your items.</div>
                 </div>
               </div>
               <div className="container-1">
@@ -150,7 +149,13 @@ export function FirstPage() {
                 </div>
               </div>
               <div className="button-input-7">
-                <img className="hash" src="assets/vectors/Hash2_x2.svg" alt="Hash" />
+                <Image 
+                  className="hash" 
+                  src="assets/vectors/Hash2_x2.svg" 
+                  alt="Hash"
+                  width={22}
+                  height={22}
+                />
                 <div className="filtering-tag">Filtering tag</div>
                 </div>
               </div>
