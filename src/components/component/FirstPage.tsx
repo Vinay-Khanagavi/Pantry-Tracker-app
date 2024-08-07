@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import './FiestPage.css';
+import './FirstPage.css';
 import Image from 'next/image';
 import { getDocs, collection, addDoc } from 'firebase/firestore';
 import { db } from './firebase-auth';
@@ -81,7 +81,7 @@ export function FirstPage() {
             Everything Inventory List
           </div>
           <div className="account-related-links">
-            <span className="my-account">my account</span>
+            <span className="my-account">My account</span>
           </div>
         </div>
         <Button onClick={suggestRecipe}>Suggest Recipe</Button>
@@ -92,19 +92,19 @@ export function FirstPage() {
             <div className="button-grid">
               <div className="container-3">
                 <div className="button-input">
-                  <Image 
+                  {/* <Image 
                     className="text-underline" 
                     src="/assets/images/TextAUnderline.png"
                     alt="Text Aunderline" 
                     width={22}
                     height={22}
-                  />
-                  <div className="name">Name</div>
+                  /> */}
+                  <div className="name">Scroll down and Add ingredients below, then let AI work its magic! Click "Suggest Recipe" to discover dishes based on your items.</div>
                 </div>
-                <div className="button-input-1">
+                {/* <div className="button-input-1">
                   <img className="camera" src="assets/vectors/Camera_x2.svg" alt="Camera" />
                   <div className="picture">Picture</div>
-                </div>
+                </div> */}
               </div>
               <div className="container-1">
                 <div className="button-input-2">
